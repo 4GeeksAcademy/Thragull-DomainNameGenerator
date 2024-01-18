@@ -17,7 +17,7 @@ for (let i=0; i<pronoun.length; i++){
                 else {
                     domain+= '.'+extension[l];
                 }
-                console.log(counter+' '+domain);
+                console.log(`${counter} ${domain}`);
                 counter++;
             }
         }
